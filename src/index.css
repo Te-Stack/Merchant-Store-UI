@@ -10,3 +10,39 @@ html{
   font-size: 14px;
   scroll-behavior: smooth;
 }
+
+.first{
+  height: 120vh;
+}
+
+.shift{
+  margin-left: 40rem;
+}
+
+.small{
+  font-size: small;
+}
+
+.icon{
+  font-size: 1.7rem;
+}
+
+.navbar-brand{
+  margin-left: 5rem;
+}
+
+.current{
+  background-color: #c5cbce;
+  width: 20vw;
+  border-right: blue 0.3rem solid;
+}
+
+.p1{
+  border-right: solid 1px rgb(29, 28, 28);
+  height: 75vh;
+}
+
+.container{
+  border-top:solid 1px black ;
+}
+
