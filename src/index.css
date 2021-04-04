@@ -12,7 +12,7 @@ html{
 }
 
 .first{
-  height: 120vh;
+  height: 200vh;
 }
 
 .shift{
@@ -39,10 +39,29 @@ html{
 
 .p1{
   border-right: solid 1px rgb(29, 28, 28);
-  height: 75vh;
+  height: 110vh;
 }
 
 .container{
   border-top:solid 1px black ;
+}
+
+.num{
+  font-size: 1rem;
+}
+
+.img{
+  width:10vw;
+  height:15vh;
+  border-radius: 5px;
+} 
+.mid{
+  margin:1.5rem 2rem 2rem 2rem ;
+}
+
+.middle{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }
 
