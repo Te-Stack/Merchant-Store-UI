@@ -1,30 +1,10 @@
 import "../index.css"
+import Navs from "./Navs"
 
 function Home() {
     return (
         <div className="first">
-            <nav className="navbar navbar-light bg-primary " >
-            <div className ="container-fluid">
-                <a className ="navbar-brand text-white" href="#">Store made with <span>SOKO</span></a>
-            </div>
-            </nav>
-
-            <nav className ="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container-fluid">
-                    <a className ="navbar-brand" href="#"> <i className =" text-mute fas fa-hotel icon"></i>  Target <br/> <span className="small">cham Towers, Plot 12 Nkruma Rd, Kampala, Ug </span></a>
-                    <button className ="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className ="navbar-toggler-icon"></span>
-                    </button>
-                    <div className ="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div className="navbar-nav shift ">
-                        <a className="nav-link" href="#"> <i className ="fas fa-shopping-bag icon "></i> &nbsp;&nbsp;Bag </a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        <a className ="nav-link" href="#"> <i className ="far fa-user icon "></i>&nbsp;&nbsp;  Account </a>
-                    </div>
-                    </div>
-                </div>
-            </nav> 
-
+            <Navs/>
             <div className="container">
                 <div className="row">
                     <div className="col-3  p1">
@@ -43,7 +23,7 @@ function Home() {
                             <input className ="form-control me-2" type="search" placeholder="Search for products..." aria-label="Search"/>
                             <button className ="btn btn-outline-success" type="submit"><i className="fas fa-search"></i></button>
                         </form>
-                        <h4 className="font-weight-bold mt-1 ">Electronics <span className="num bg-primary text-white font-weight-bold "> 12</span></h4>
+                        <h4 className="font-weight-bold mt-1 ">Electronics &nbsp;<span className="num bg-primary text-white font-weight-bold ">12</span></h4>
                         <div className="container mt-2">
                             <div className="row">
                                 <div className="col-3">
@@ -94,15 +74,51 @@ function Home() {
 
                     </div>
                     <div className="col-3">
-                        <h4 className="font-weight-bold mt-1 ">Bags  <span className="num bg-primary text-white font-weight-bold "> 0</span></h4>
-                            
-
+                        <h4 className="font-weight-bold m-5">Bags &nbsp;  <span className="num bg-primary text-white font-weight-bold "> 0</span></h4>
+                        <img className="img1 " src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617624976/smiley-1635449_1280_l1ce6g.png" alt="stickers" />
+                        <div className="mx-2">
+                        <p className="mx-5"><strong>it's empty here</strong></p>
+                        <p>Start shopping to add items to<br/> your bag</p>
+                        </div>
                     </div>
-
+                </div>
+            </div>
+            <footer>
+                <div className="pane bg-primary ">
+                    <div>
+                        <p><i class="icons fas fa-truck"></i></p>
+                        <p>Fast Delivery</p>
+                    </div>
+                    <div>
+                        <p><i class="icons  fas fa-certificate"></i></p>
+                        <p>Buyer Protection</p>
+                    </div>
+                    <div>
+                        <p><i class="icons fab fa-stumbleupon-circle"></i></p>
+                        <p>Customer Support</p>
+                    </div>
+                </div>
+                <div className="last">
+                    <div>
+                        <p>STORE DETAILS </p>
+                    </div>
+                    <div>
+                        <strong>Target </strong>
+                    </div>
+                    <div>
+                        <p>Cham Towers,Plot 12 Nkruma Rd ,Kampala ,Ug</p>
+                    </div>
+                    <div className="btn btn-success">
+                    <i class="fab fa-whatsapp"></i> Chat with us 
+                    </div>
                 </div>
 
-            </div>
-            
+                
+                
+
+            </footer>
+
+
         </div>
     )
 }
