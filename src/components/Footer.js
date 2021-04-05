@@ -6,15 +6,15 @@ function Footer() {
             <footer>
                 <div className="pane bg-primary ">
                     <div>
-                        <p><i class="icons fas fa-truck"></i></p>
+                        <p><i className="icons fas fa-truck"></i></p>
                         <p>Fast Delivery</p>
                     </div>
                     <div>
-                        <p><i class="icons  fas fa-certificate"></i></p>
+                        <p><i className="icons  fas fa-certificate"></i></p>
                         <p>Buyer Protection</p>
                     </div>
                     <div>
-                        <p><i class="icons fab fa-stumbleupon-circle"></i></p>
+                        <p><i className="icons fab fa-stumbleupon-circle"></i></p>
                         <p>Customer Support</p>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ function Footer() {
                         <p>Cham Towers,Plot 12 Nkruma Rd ,Kampala ,Ug</p>
                     </div>
                     <div className="btn btn-success">
-                    <i class="fab fa-whatsapp"></i> Chat with us 
+                    <i className="fab fa-whatsapp"></i> Chat with us 
                     </div>
                 </div>
             </footer>   
