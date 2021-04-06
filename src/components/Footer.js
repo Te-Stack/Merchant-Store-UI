@@ -1,4 +1,6 @@
 import "../index.css"
+import {Link} from "react-router-dom"
+
 
 function Footer() {
     return (
@@ -32,7 +34,10 @@ function Footer() {
                     <i className="fab fa-whatsapp"></i> Chat with us 
                     </div>
                 </div>
-            </footer>   
+            </footer>
+            <div class="usual bg-dark text-white">
+                Made with &hearts; by <Link to="https://github.com/Te-Stack">Quincy Oghentejiri</Link>
+            </div>   
         </div>
     )
 }
