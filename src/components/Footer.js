@@ -1,5 +1,4 @@
 import "../index.css"
-import {Link} from "react-router-dom"
 
 
 function Footer() {
@@ -35,8 +34,8 @@ function Footer() {
                     </div>
                 </div>
             </footer>
-            <div class="usual bg-dark text-white">
-                Made with &hearts; by <Link to="https://github.com/Te-Stack">Quincy Oghentejiri</Link>
+            <div className="usual bg-light  text-center mt-3">
+                Made with <span className="text-danger">&hearts;</span> by <a href="https://github.com/Te-Stack">Quincy Oghenetejiri</a>
             </div>   
         </div>
     )
