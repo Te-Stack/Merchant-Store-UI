@@ -27,7 +27,7 @@ function Footer() {
                         <strong>Target </strong>
                     </div>
                     <div>
-                        <p>Cham Towers,Plot 12 Nkruma Rd ,Kampala ,Ug</p>
+                        <p>12th Newton Street, Benin City , Nigeria </p>
                     </div>
                     <div className="btn btn-success">
                     <i className="fab fa-whatsapp"></i> Chat with us 

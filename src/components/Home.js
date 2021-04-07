@@ -22,54 +22,70 @@ function Home() {
                             <button className ="btn btn-outline-success" type="submit"><i className="fas fa-search"></i></button>
                         </form>
                         <h4 className="font-weight-bold mt-1 ">Electronics &nbsp;<span className="num bg-primary text-white font-weight-bold ">12</span></h4>
-                        <div className="container mt-2">
-                            <div className="row">
-                                <div className="col-3">
+                        <div className="flex mt-2">
+                            <div className="phase">
+                                <div>
                                     <img  className="img mt-4" src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617550157/medicine-5103043_1920_rd7fuz.jpg" alt="facemask" />
-                                    <img  className="img mt-4" src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617550116/chair-1840011_1920_wpeabc.jpg" alt="Chair" />
-                                    <img  className="img mt-4" src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617550110/vegetable-juices-1725835_1920_booyes.jpg" alt="Carrot" />
-                                    <img  className="img mt-4" src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617550101/cupboard-2160186_1920_a7wm6f.jpg" alt="cupboard" />
-                                    <img  className="img mt-4" src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617550091/coffee-2700661_1920_hr73ch.jpg" alt="cunned-bean" />
-
                                 </div>
-                                <div className="col-7">
-                                    <div className="middle">
-                                        <div className="mid">
-                                            <h6>Kids'2pk Cloth Face Masks </h6>
-                                            <p>UGX 185,000</p>
-                                        </div>
-                                        <div className="mid">
-                                            <h6>Norbury Scandinavian Wood Leg Ottoman </h6>
-                                            <p>UGX 118,400</p>
-                                        </div>
-                                        <div className="mid">
-                                            <h6>Baby-Cut Carrots -1lb - Good and Gather  </h6>
-                                            <p>UGX 4,000</p>
-                                        </div>
-                                        <div className="mid">
-                                            <h6>Metal Country Chalet Charm and wood Bench -Saracina Home </h6>
-                                            <p>UGX 185,000</p>
-                                        </div>
-                                        <div className="mid">
-                                            <h6>Alternative Protein Ground - 160z -Good and Gather </h6>
-                                            <p>UGX 185,000</p>
-                                        </div>
-                                    </div>
-                                   
+                                <div className="mid">
+                                    <h6>Kids'2pk Cloth Face Masks </h6>
+                                    <p>UGX 185,000</p>
                                 </div>
-                                <div className="col-2">
-                                    <button className="btn btn-primary mt-5 mb-5"> + Add </button>
-                                    <button className="btn btn-primary mt-5 mb-5"> + Add </button>
-                                    <button className="btn btn-primary mt-5 mb-5"> + Add </button>
-                                    <button className="btn btn-primary mt-5 mb-5"> + Add </button>
-                                    <button className="btn btn-primary mt-5 mb-5"> + Add </button>
+                                <div>
+                                <button className="btn btn-primary mt-5 mb-5"> + Add </button>
                                 </div>
-
+                            </div>
+                            <div className="phase">
+                                <div>
+                                <img  className="img mt-4" src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617550116/chair-1840011_1920_wpeabc.jpg" alt="Chair" />
+                                </div>
+                                <div className="mid">
+                                <h6>Norbury Scandinavian Wood Leg Ottoman </h6>
+                                <p>UGX 118,400</p>
+                                </div>
+                                <div>
+                                <button className="btn btn-primary mt-5 mb-5"> + Add </button>
+                                </div>
 
                             </div>
+                            <div className="phase">
+                                <div>
+                                 <img  className="img mt-4" src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617550110/vegetable-juices-1725835_1920_booyes.jpg" alt="Carrot" />
+                                </div>
+                                <div className="mid">
+                                            <h6>Baby-Cut Carrots -1lb - Good and Gather  </h6>
+                                            <p>UGX 4,000</p>
+                                </div>
+                                <div>
+                                    <button className="btn btn-primary mt-5 mb-5"> + Add </button>
+                                </div>
+                            </div>
+                            <div className="phase">
+                                <div>
+                                    <img  className="img mt-4" src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617550101/cupboard-2160186_1920_a7wm6f.jpg" alt="cupboard" />
+                                </div>
+                                    <div className="mid">
+                                                <h6>Metal Country Chalet Charm and wood Bench -Saracina Home </h6>
+                                                <p>UGX 185,000</p>
+                                    </div>
+                                <div>
+                                    <button className="btn btn-primary mt-5 mb-5"> + Add </button>
+                                </div>
 
+                            </div>
+                            <div className="phase">
+                                <div>   
+                                    <img  className="img mt-4" src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617550091/coffee-2700661_1920_hr73ch.jpg" alt="cunned-bean" />
+                                </div>
+                                <div className="mid">
+                                    <h6>Alternative Protein Ground - 160z -Good and Gather </h6>
+                                    <p>UGX 185,000</p>
+                                </div>
+                                <div>
+                                    <button className="btn btn-primary mt-5 mb-5"> + Add </button>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
                     <div className="col-3">
                         <h4 className="font-weight-bold m-5">Bags &nbsp;  <span className="num bg-primary text-white font-weight-bold "> 0</span></h4>
