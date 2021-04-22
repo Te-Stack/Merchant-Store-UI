@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "../index.css"
 
 function Home() {
@@ -25,7 +26,9 @@ function Home() {
                         <div className="flex mt-2">
                             <div className="phase">
                                 <div>
-                                    <img  className="img mt-4" src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617550157/medicine-5103043_1920_rd7fuz.jpg" alt="facemask" />
+                                    <Link to="/products">
+                                        <img  className="img mt-4" src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617550157/medicine-5103043_1920_rd7fuz.jpg" alt="facemask" />
+                                    </Link>    
                                 </div>
                                 <div className="mid">
                                     <h6>Kids'2pk Cloth Face Masks </h6>
