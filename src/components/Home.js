@@ -6,7 +6,7 @@ function Home() {
         <div className="first">
             <div className="container">
                 <div className="row">
-                     <div className="col-3  p1">
+                     <div className="col-md-3 col-sm-12  p1">
                         <div>
                         <p className="current text-primary mt-4 ">Electronics(12)</p>
                         <p>Face Masks (3)</p>
@@ -17,7 +17,7 @@ function Home() {
                         </div>
                         <p className="text-primary "> View all categories &gt; </p>
                     </div>
-                    <div className="col-6 p1">
+                    <div className="col-md-6 col-sm-12 p1">
                         <form className ="d-flex mb-2">
                             <input className ="form-control me-2" type="search" placeholder="Search for products..." aria-label="Search"/>
                             <button className ="btn btn-outline-success" type="submit"><i className="fas fa-search"></i></button>
@@ -90,7 +90,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-md-3 col-sm-12">
                         <h4 className="font-weight-bold m-5">Bags &nbsp;  <span className="num bg-primary text-white font-weight-bold "> 0</span></h4>
                         <img className="img1 " src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617624976/smiley-1635449_1280_l1ce6g.png" alt="stickers" />
                         <div className="mx-2">
