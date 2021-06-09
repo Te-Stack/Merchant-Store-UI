@@ -6,7 +6,7 @@ function Home() {
         <div className="first">
             <div className="container">
                 <div className="row">
-                    <div className="col-3  p1">
+                     <div className="col-3  p1">
                         <div>
                         <p className="current text-primary mt-4 ">Electronics(12)</p>
                         <p>Face Masks (3)</p>
