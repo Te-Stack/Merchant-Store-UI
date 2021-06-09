@@ -6,8 +6,8 @@ function Home() {
         <div className="first">
             <div className="container">
                 <div className="row">
-                     <div className="col-md-3 col-sm-12  p1">
-                        <div>
+                    <div className="col-md-3 col-sm-12  p1">
+                        <div className="">
                         <p className="current text-primary mt-4 ">Electronics(12)</p>
                         <p>Face Masks (3)</p>
                         <p>Fresh Food (8)</p>
@@ -90,7 +90,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-12">
+                    <div className="col-md-3 col-sm-3">
                         <h4 className="font-weight-bold m-5">Bags &nbsp;  <span className="num bg-primary text-white font-weight-bold "> 0</span></h4>
                         <img className="img1 " src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617624976/smiley-1635449_1280_l1ce6g.png" alt="stickers" />
                         <div className="mx-2">

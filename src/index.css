@@ -202,7 +202,7 @@ footer .last{
 @media screen and (max-width:480px){
       
 .first{
-  height: 200vh;
+  height: 210vh;
 }
 
 .shift{
@@ -227,13 +227,13 @@ footer .last{
 
 .current{
   background-color: #c5cbce;
-  width: 20vw;
+  width: 35vw;
   border-right: blue 0.3rem solid;
 }
 
 .p1{
   border-right: solid 1px rgb(29, 28, 28);
-  height: 65vh;
+  height: 75vh;
 }
 
 .target{
@@ -266,16 +266,16 @@ footer .last{
 }
 
 footer .pane{
-  height: 15vh;
+  height: 31vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   justify-content: space-evenly;
   align-items: center;
 }
 
 footer .last{
-  height: 15vh;
+  height: 17vh;
   display: flex;
   flex-direction: column;
   align-items: center;
