@@ -1,5 +1,5 @@
 
-<h1 align="center">Welcome to My Merchant Store-Front App 👋</h1>
+<h1 align="center">Welcome to My Merchant Store App 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -7,7 +7,7 @@
   </a>
 </p>
 
-> A merchant store front user interface that shows various products that can purchase by various customers with their different prices 
+> A merchant store app user interface that shows various products that can purchase by various customers with their different prices 
 
 ## Author
 
