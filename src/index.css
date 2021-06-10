@@ -216,7 +216,7 @@ footer .last{
 @media screen and (max-width:480px){
       
 .first{
-  height: 210vh;
+  height: 180vh;
 }
 
 .shift{
@@ -247,7 +247,7 @@ footer .last{
 
 .p1{
   border-right: solid 1px rgb(29, 28, 28);
-  height: 65vh;
+  height: 40vh;
 }
 
 .target{
@@ -266,7 +266,7 @@ footer .last{
 
 .last1 {
   font-size: 1.3rem;
-  margin: 15rem 1rem 1rem 1rem;
+  margin: 30rem 1rem 1rem 1rem;
 }
 
 .img1{
