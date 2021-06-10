@@ -22,8 +22,8 @@ function Home() {
                             <input className ="form-control me-2" type="search" placeholder="Search for products..." aria-label="Search"/>
                             <button className ="btn btn-outline-success" type="submit"><i className="fas fa-search"></i></button>
                         </form>
-                        <h4 className="font-weight-bold mt-1 ">Electronics &nbsp;<span className="num bg-primary text-white font-weight-bold ">12</span></h4>
-                        <div className="flex mt-2">
+                        <h4 className="font-weight-bold">Electronics &nbsp;<span className="num bg-primary text-white font-weight-bold ">12</span></h4>
+                        <div className="flex">
                             <div className="phase">
                                 <div>
                                     <Link to="/products">
@@ -91,7 +91,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-3">
-                        <h4 className="font-weight-bold m-5">Bags &nbsp;  <span className="num bg-primary text-white font-weight-bold "> 0</span></h4>
+                        <h4 className="font-weight-bold last1">Bags &nbsp;  <span className="num bg-primary text-white font-weight-bold "> 0</span></h4>
                         <img className="img1 " src="https://res.cloudinary.com/dha7gjz6y/image/upload/v1617624976/smiley-1635449_1280_l1ce6g.png" alt="stickers" />
                         <div className="mx-2">
                         <p className="mx-5"><strong>it's empty here</strong></p>
